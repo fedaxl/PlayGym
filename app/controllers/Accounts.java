@@ -41,7 +41,7 @@ public class Accounts extends Controller
     loggedInMember.startingweight = member.startingweight;
     loggedInMember.save();
     redirect
-            ("/settings.html");
+            ("/settings");
   }  public static void logout()
 {
   session.clear();
